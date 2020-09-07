@@ -31,8 +31,6 @@ namespace U20200907._3
                         Console.WriteLine( Words[i] + " (" + count[i] + ")");
                     }
 
-
-
                     Console.ReadKey();
                 }
 
