@@ -24,6 +24,13 @@ namespace U20200907._1
 
             Console.WriteLine("Antalet ord i ditt citat är: " + WordCount);
             string[] Words = Citat.Split(" ");
+
+            foreach (var word in Words)
+            {
+                Console.WriteLine(word+ " (" + word.Length + ")");
+            }
+
+
         }
     }
 }
