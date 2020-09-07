@@ -21,8 +21,7 @@ namespace U20200907._5
                 if (Word[i] == "AVSLUTA")
                 {
                     Word[i] = ".";
-                    break;
-                    
+                    break;                    
                 }
                 else {
                     continue;
